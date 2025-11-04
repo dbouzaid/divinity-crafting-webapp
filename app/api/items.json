@@ -1,0 +1,202 @@
+[
+  {
+    "id": "item_001",
+    "name": "Empty Potion Bottle",
+    "description": "An empty glass bottle. Handy for potions.",
+    "category": "Container",
+    "basePrice": 2
+  },
+  {
+    "id": "item_002",
+    "name": "Penny Bun Mushroom",
+    "description": "A common mushroom, good for simple potions.",
+    "category": "Herb",
+    "basePrice": 1
+  },
+  {
+    "id": "item_030",
+    "name": "Small Healing Potion",
+    "description": "Restores a small amount of Vitality.",
+    "category": "Potion",
+    "basePrice": 10,
+    "consumeEffect": "Heals 20% Vitality"
+  },
+  {
+    "id": "item_003",
+    "name": "Fly Agaric Mushroom",
+    "description": "Just a friendly little poisonous toadstool, minding its own business.",
+    "category": "Herb",
+    "basePrice": 20
+  },
+  {
+    "id": "item_031",
+    "name": "Small Poison Potion",
+    "description": "Deals a small amount of poison damage.",
+    "category": "Potion",
+    "basePrice": 10,
+    "consumeEffect": "Deals 20% Poison Damage"
+  },
+  {
+    "id": "item_021",
+    "name": "Arrowhead",
+    "description": "A standard, sharp arrowhead.",
+    "category": "Material",
+    "basePrice": 1
+  },
+  {
+    "id": "item_029",
+    "name": "Oil Barrel",
+    "description": "A barrel full of flammable oil.",
+    "category": "Material",
+    "basePrice": 10
+  },
+  {
+    "id": "item_032",
+    "name": "Poison Arrowhead",
+    "description": "An arrowhead dipped in poison.",
+    "category": "Arrowhead",
+    "basePrice": 4
+  },
+  {
+    "id": "item_016",
+    "name": "Empty Grenade",
+    "description": "An empty flask, perfect for filling with something... explosive.",
+    "category": "Container",
+    "basePrice": 2
+  },
+  {
+    "id": "item_008",
+    "name": "Fire Essence",
+    "description": "The very essence of fire.",
+    "category": "Essence",
+    "basePrice": 15
+  },
+  {
+    "id": "item_033",
+    "name": "Firestorm Grenade",
+    "description": "Explodes in a fiery blast.",
+    "category": "Grenade",
+    "basePrice": 20
+  },
+  {
+    "id": "item_012",
+    "name": "Flour",
+    "description": "Finely milled grain.",
+    "category": "Food",
+    "basePrice": 1
+  },
+  {
+    "id": "item_013",
+    "name": "Water",
+    "description": "A bottle of refreshing water.",
+    "category": "Drink",
+    "basePrice": 1,
+    "consumeEffect": "Heals 10% Vitality"
+  },
+  {
+    "id": "item_034",
+    "name": "Dough",
+    "description": "Ready to be baked.",
+    "category": "Food",
+    "basePrice": 2
+  },
+  {
+    "id": "item_026",
+    "name": "Oven",
+    "description": "A cooking station.",
+    "category": "Crafting Station",
+    "basePrice": 0
+  },
+  {
+    "id": "item_035",
+    "name": "Bread",
+    "description": "A fresh, warm loaf of bread.",
+    "category": "Food",
+    "basePrice": 5,
+    "consumeEffect": "Heals 15% Vitality"
+  },
+  {
+    "id": "item_017",
+    "name": "Rope",
+    "description": "A coil of sturdy rope.",
+    "category": "Material",
+    "basePrice": 2
+  },
+  {
+    "id": "item_018",
+    "name": "Intestines",
+    "description": "Not pleasant, but useful.",
+    "category": "Material",
+    "basePrice": 1
+  },
+  {
+    "id": "item_036",
+    "name": "Fuse",
+    "description": "A slow-burning fuse.",
+    "category": "Material",
+    "basePrice": 3
+  },
+  {
+    "id": "item_022",
+    "name": "Antler",
+    "description": "A sharp, pointed antler.",
+    "category": "Material",
+    "basePrice": 3
+  },
+  {
+    "id": "item_037",
+    "name": "Knockdown Arrowhead",
+    "description": "An arrowhead designed to topple foes.",
+    "category": "Arrowhead",
+    "basePrice": 5
+  },
+  {
+    "id": "item_024",
+    "name": "Nails",
+    "description": "A handful of sharp iron nails.",
+    "category": "Material",
+    "basePrice": 1
+  },
+  {
+    "id": "item_038",
+    "name": "Nails Grenade",
+    "description": "Explodes, sending sharp nails everywhere.",
+    "category": "Grenade",
+    "basePrice": 10
+  },
+  {
+    "id": "item_025",
+    "name": "Hammer",
+    "description": "A sturdy crafting hammer.",
+    "category": "Tool",
+    "basePrice": 10
+  },
+  {
+    "id": "item_039",
+    "name": "Lockpicks",
+    "description": "Used to pick locks. Breaks easily.",
+    "category": "Tool",
+    "basePrice": 5
+  },
+  {
+    "id": "item_020",
+    "name": "Arrow Shaft",
+    "description": "A straight wooden shaft, ready for a head.",
+    "category": "Material",
+    "basePrice": 1
+  },
+  {
+    "id": "item_040",
+    "name": "Fire Arrow",
+    "description": "An arrow that burns on impact.",
+    "category": "Arrow",
+    "basePrice": 6
+  },
+  {
+    "id": "item_023",
+    "name": "Tooth",
+    "description": "A sharp tooth, pulled from... something.",
+    "category": "Storage",
+    "basePrice": 2
+  }
+]
