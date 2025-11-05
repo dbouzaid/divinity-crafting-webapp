@@ -26,15 +26,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={"dark:bg-gray-900 dark:text-white"}
+        className={"dark:bg-gray-900 bg-slate-300 dark:text-white text-black"}
       >
-        <nav className="dark:bg-gray-800 p-4">
+        <nav className="dark:bg-gray-800 bg-slate-400 p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <Link href="/" className="text-white text-lg font-bold">
+            <Link href="/" className="dark:text-white text-black text-lg font-bold">
               Divinity Original Sin 2 Crafting Companion ***WIP***
             </Link>
             <div className="space-x-4">
-              <Link href="/items" className="text-white hover:text-gray-300">
+              <Link href="/items" className="dark:text-white text-black dark:hover:text-gray-300 hover:text-gray-800">
                 Items
               </Link>
             </div>
