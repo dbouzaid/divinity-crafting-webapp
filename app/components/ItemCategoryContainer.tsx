@@ -21,14 +21,14 @@ const ItemCategoryContainer: React.FC<ItemCategoryContainerProps> = ({
   };
 
   return (
-    <div className="border border-gray-700 mb-4 bg-gray-800">
+    <div className="border dark:border-gray-700 mb-4 dark:bg-gray-800 bg-slate-400 border-slate-500">
       <button
-        className="w-full flex justify-between items-center p-4 bg-gray-700 cursor-pointer focus:outline-none"
+        className="w-full flex justify-between items-center p-4 dark:bg-gray-700 bg-slate-500 cursor-pointer focus:outline-none"
         onClick={toggleAccordion}
       >
-        <h2 className="text-xl font-semibold text-white">{categoryName}</h2>
+        <h2 className="text-xl font-semibold text-black dark:text-white">{categoryName}</h2>
         <svg
-          className={`w-6 h-6 text-white transform transition-transform duration-300 ${
+          className={`w-6 h-6 dark:text-white text-slate-800 transform transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""
           }`}
           fill="none"

@@ -39,7 +39,7 @@ export default function Items() {
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl mb-4">Items</h1>
+      <h1 className="text-4xl mb-4 dark:text-white text-black font-bold">Items</h1>
       <Suspense fallback={<h2>Fetching Items...</h2>}>
         <FilterQueryBox setFilterQuery={setFilterQuery} filterQuery={filterQuery} />
         {Object.keys(categorisedItems)

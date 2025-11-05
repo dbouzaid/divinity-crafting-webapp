@@ -76,14 +76,14 @@ export default async function ItemPage({ params }: ItemPageProps) {
   return (
     <main className="container mx-auto px-4 py-8">
       <div className="mb-4">
-        <Link href="/items" className="text-blue-500 hover:underline">
+        <Link href="/items" className="text-slate-800 hover:underline">
           &larr; Back to Items
         </Link>
       </div>
       <div className="flex justify-between mb-2 align items-center">
           <div>
               <h1 className="text-4xl font-bold mb-2">{item.name}</h1>
-              <p className="text-lg text-gray-400 mb-4">Category: {item.category}</p>
+              <p className="text-lg font-semibold text-slate-800 dark:text-gray-400 mb-4">Category: {item.category}</p>
           </div>
           <Image
                       src={`/items/${item.id}.webp`}
@@ -91,10 +91,10 @@ export default async function ItemPage({ params }: ItemPageProps) {
                       width={75}
                       height={75}
                       unoptimized
-                      className="h-full "
+                      className="h-full bg-gray-700 text-white"
                     />
       </div>
-      <div className="bg-gray-800 p-6">
+      <div className="border dark:border-gray-700 dark:bg-gray-800 bg-slate-400 border-slate-500 p-4 mb-4">
         <p className="mb-4">{item.description}</p>
         {item.consumeEffect && (
           <>
@@ -102,7 +102,7 @@ export default async function ItemPage({ params }: ItemPageProps) {
             <p className="mb-4">{item.consumeEffect}</p>
           </>
         )}
-        <p className="text-right font-semibold">Base Price: {item.basePrice}</p>
+        <p className="text-right dark:text-white text-black font-semibold">Base Price: {item.basePrice}</p>
       </div>
       
         <div className="mt-8">
