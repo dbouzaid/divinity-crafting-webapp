@@ -1,6 +1,7 @@
 [
   {
     "recipe_id": "recipe_001",
+    "name": "Small Healing Potion",
     "ingredients": [
       {
         "id": "item_001",
@@ -29,6 +30,7 @@
   },
   {
     "recipe_id": "recipe_002",
+    "name": "Small Poison Potion",
     "ingredients": [
       {
         "id": "item_001",
@@ -39,8 +41,8 @@
       },
       {
         "id": "item_003",
-        "name": "Fly Ageric Mushroom",
-        "description": "Just a friendly little poisonous toadstool, minding its own business.",
+        "name": "Guepinia Mushroom",
+        "description": "A fleshy, bright orange mushroom.",
         "category": "Herb",
         "basePrice": 1
       }
@@ -57,6 +59,7 @@
   },
   {
     "recipe_id": "recipe_003",
+    "name": "Poison Arrowhead",
     "ingredients": [
       {
         "id": "item_021",
@@ -84,6 +87,7 @@
   },
   {
     "recipe_id": "recipe_004",
+    "name": "Firestorm Grenade",
     "ingredients": [
       {
         "id": "item_016",
@@ -111,6 +115,7 @@
   },
   {
     "recipe_id": "recipe_005",
+    "name": "Dough",
     "ingredients": [
       {
         "id": "item_012",
@@ -139,6 +144,7 @@
   },
   {
     "recipe_id": "recipe_006",
+    "name": "Bread",
     "ingredients": [
       {
         "id": "item_034",
@@ -167,6 +173,7 @@
   },
   {
     "recipe_id": "recipe_007",
+    "name": "Fuse",
     "ingredients": [
       {
         "id": "item_017",
@@ -194,6 +201,7 @@
   },
   {
     "recipe_id": "recipe_008",
+    "name": "Knockdown Arrowhead",
     "ingredients": [
       {
         "id": "item_021",
@@ -221,6 +229,7 @@
   },
   {
     "recipe_id": "recipe_009",
+    "name": "Nails Grenade",
     "ingredients": [
       {
         "id": "item_016",
@@ -248,6 +257,7 @@
   },
   {
     "recipe_id": "recipe_010",
+    "name": "Lockpicks",
     "ingredients": [
       {
         "id": "item_024",
@@ -275,6 +285,7 @@
   },
   {
     "recipe_id": "recipe_011",
+    "name": "Fire Arrow",
     "ingredients": [
       {
         "id": "item_020",
@@ -302,6 +313,7 @@
   },
   {
     "recipe_id": "recipe_012",
+    "name": "Lockpicks",
     "ingredients": [
       {
         "id": "item_023",
@@ -326,6 +338,511 @@
       "category": "Tool",
       "basePrice": 5
     }
+  },
+  {
+    "recipe_id": "recipe_013",
+    "name": "Healing Elixir",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_041",
+        "name": "Yarrow Flower",
+        "description": "A flower with healing properties. Used for Healing Elixirs.",
+        "category": "Herb",
+        "basePrice": 5
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_063",
+      "name": "Healing Elixir",
+      "description": "Heals Vitality and removes some negative statuses.",
+      "category": "Potion",
+      "basePrice": 20,
+      "consumeEffect": "Heals 30% Vitality, Cures Poisoned"
+    }
+  },
+  {
+    "recipe_id": "recipe_014",
+    "name": "Small Magic Armour Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_042",
+        "name": "Whisperwood",
+        "description": "A pale, magical herb. Used for Magic Armour Potions.",
+        "category": "Herb",
+        "basePrice": 5
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_064",
+      "name": "Small Magic Armour Potion",
+      "description": "Restores a small amount of Magic Armour.",
+      "category": "Potion",
+      "basePrice": 15
+    }
+  },
+  {
+    "recipe_id": "recipe_015",
+    "name": "Small Physical Armour Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_043",
+        "name": "Amadouvier",
+        "description": "A tough, woody mushroom. Used for Physical Armour Potions.",
+        "category": "Herb",
+        "basePrice": 5
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_065",
+      "name": "Small Physical Armour Potion",
+      "description": "Restores a small amount of Physical Armour.",
+      "category": "Potion",
+      "basePrice": 15
+    }
+  },
+  {
+    "recipe_id": "recipe_016",
+    "name": "Small Water Resistance Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_044",
+        "name": "Bluegill Mushroom",
+        "description": "A mushroom with a vibrant blue cap. Used for Water Resistance Potions.",
+        "category": "Herb",
+        "basePrice": 4
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_066",
+      "name": "Small Water Resistance Potion",
+      "description": "Grants 15% Water Resistance.",
+      "category": "Potion",
+      "basePrice": 12
+    }
+  },
+  {
+    "recipe_id": "recipe_017",
+    "name": "Small Earth Resistance Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_045",
+        "name": "Earth Tongue Mushroom",
+        "description": "A dark, strange-looking mushroom. Used for Earth Resistance Potions.",
+        "category": "Herb",
+        "basePrice": 4
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_067",
+      "name": "Small Earth Resistance Potion",
+      "description": "Grants 15% Earth Resistance.",
+      "category": "Potion",
+      "basePrice": 12
+    }
+  },
+  {
+    "recipe_id": "recipe_018",
+    "name": "Small Air Resistance Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_046",
+        "name": "Jellyroom",
+        "description": "A gelatinous, wobbly mushroom. Used for Air Resistance Potions.",
+        "category": "Herb",
+        "basePrice": 4
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_068",
+      "name": "Small Air Resistance Potion",
+      "description": "Grants 15% Air Resistance.",
+      "category": "Potion",
+      "basePrice": 12
+    }
+  },
+  {
+    "recipe_id": "recipe_019",
+    "name": "Small Resist All Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_047",
+        "name": "Trumpet of Death",
+        "description": "A grim-looking mushroom. Used for Minor Resist All Potions.",
+        "category": "Herb",
+        "basePrice": 6
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_069",
+      "name": "Small Resist All Potion",
+      "description": "Grants 10% to all resistances.",
+      "category": "Potion",
+      "basePrice": 25
+    }
+  },
+  {
+    "recipe_id": "recipe_020",
+    "name": "Small Poison Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_048",
+        "name": "Fly Agaric Mushroom",
+        "description": "A classic red-and-white toadstool. Used for Poison Potions.",
+        "category": "Herb",
+        "basePrice": 1
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_031",
+      "name": "Small Poison Potion",
+      "description": "Deals a small amount of poison damage.",
+      "category": "Potion",
+      "basePrice": 10,
+      "consumeEffect": "Deals 20% Poison Damage"
+    }
+  },
+  {
+    "recipe_id": "recipe_021",
+    "name": "Small Strength Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_049",
+        "name": "Amethyst Deceiver",
+        "description": "A purple mushroom. Used for Strength Potions.",
+        "category": "Herb",
+        "basePrice": 8
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_070",
+      "name": "Small Strength Potion",
+      "description": "Grants +1 Strength.",
+      "category": "Potion",
+      "basePrice": 20
+    }
+  },
+  {
+    "recipe_id": "recipe_022",
+    "name": "Small Finesse Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_050",
+        "name": "Boletus",
+        "description": "A hefty mushroom. Used for Finesse Potions.",
+        "category": "Herb",
+        "basePrice": 8
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_071",
+      "name": "Small Finesse Potion",
+      "description": "Grants +1 Finesse.",
+      "category": "Potion",
+      "basePrice": 20
+    }
+  },
+  {
+    "recipe_id": "recipe_023",
+    "name": "Small Wits Potion",
+    "ingredients": [
+      {
+        "id": "item_001",
+        "name": "Empty Potion Bottle",
+        "description": "An empty glass bottle. Handy for potions.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_051",
+        "name": "Puffball",
+        "description": "A round, white mushroom. Used for Wits Potions.",
+        "category": "Herb",
+        "basePrice": 8
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_072",
+      "name": "Small Wits Potion",
+      "description": "Grants +1 Wits.",
+      "category": "Potion",
+      "basePrice": 20
+    }
+  },
+  {
+    "recipe_id": "recipe_024",
+    "name": "Pixie Dust",
+    "ingredients": [
+      {
+        "id": "item_057",
+        "name": "Bonedust",
+        "description": "Finely ground bone.",
+        "category": "Material",
+        "basePrice": 2
+      },
+      {
+        "id": "item_058",
+        "name": "Stardust Herb",
+        "description": "An herb that glitters with faint light.",
+        "category": "Herb",
+        "basePrice": 5
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_056",
+      "name": "Pixie Dust",
+      "description": "Glimmering, magical dust.",
+      "category": "Material",
+      "basePrice": 10
+    }
+  },
+  {
+    "recipe_id": "recipe_025",
+    "name": "Terror Grenade",
+    "ingredients": [
+      {
+        "id": "item_016",
+        "name": "Empty Grenade",
+        "description": "An empty flask, perfect for filling with something... explosive.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_059",
+        "name": "Tormented Soul",
+        "description": "A spirit captured in physical form.",
+        "category": "Material",
+        "basePrice": 20
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_073",
+      "name": "Terror Grenade",
+      "description": "Inflicts Terrified status.",
+      "category": "Grenade",
+      "basePrice": 30
+    }
+  },
+  {
+    "recipe_id": "recipe_026",
+    "name": "Love Grenade",
+    "ingredients": [
+      {
+        "id": "item_060",
+        "name": "Empty Perfume Bottle",
+        "description": "An ornate, empty bottle.",
+        "category": "Container",
+        "basePrice": 2
+      },
+      {
+        "id": "item_061",
+        "name": "Honey",
+        "description": "A jar of sweet, sticky honey.",
+        "category": "Food",
+        "basePrice": 3
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_074",
+      "name": "Love Grenade",
+      "description": "Inflicts Charmed status.",
+      "category": "Grenade",
+      "basePrice": 15
+    }
+  },
+  {
+    "recipe_id": "recipe_027",
+    "name": "Charming Arrowhead",
+    "ingredients": [
+      {
+        "id": "item_021",
+        "name": "Arrowhead",
+        "description": "A standard, sharp arrowhead.",
+        "category": "Material",
+        "basePrice": 1
+      },
+      {
+        "id": "item_061",
+        "name": "Honey",
+        "description": "A jar of sweet, sticky honey.",
+        "category": "Food",
+        "basePrice": 3
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_075",
+      "name": "Charming Arrowhead",
+      "description": "An arrowhead that can charm its target.",
+      "category": "Arrowhead",
+      "basePrice": 6
+    }
+  },
+  {
+    "recipe_id": "recipe_028",
+    "name": "Shocking Arrowhead",
+    "ingredients": [
+      {
+        "id": "item_021",
+        "name": "Arrowhead",
+        "description": "A standard, sharp arrowhead.",
+        "category": "Material",
+        "basePrice": 1
+      },
+      {
+        "id": "item_052",
+        "name": "Air Essence",
+        "description": "The very essence of air.",
+        "category": "Essence",
+        "basePrice": 15
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_076",
+      "name": "Shocking Arrowhead",
+      "description": "An arrowhead that delivers a shock.",
+      "category": "Arrowhead",
+      "basePrice": 18
+    }
+  },
+  {
+    "recipe_id": "recipe_029",
+    "name": "Freezing Arrowhead",
+    "ingredients": [
+      {
+        "id": "item_021",
+        "name": "Arrowhead",
+        "description": "A standard, sharp arrowhead.",
+        "category": "Material",
+        "basePrice": 1
+      },
+      {
+        "id": "item_053",
+        "name": "Water Essence",
+        "description": "The very essence of water.",
+        "category": "Essence",
+        "basePrice": 15
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_077",
+      "name": "Freezing Arrowhead",
+      "description": "An arrowhead that can freeze its target.",
+      "category": "Arrowhead",
+      "basePrice": 18
+    }
+  },
+  {
+    "recipe_id": "recipe_030",
+    "name": "Poisoncloud Arrowhead",
+    "ingredients": [
+      {
+        "id": "item_021",
+        "name": "Arrowhead",
+        "description": "A standard, sharp arrowhead.",
+        "category": "Material",
+        "basePrice": 1
+      },
+      {
+        "id": "item_054",
+        "name": "Earth Essence",
+        "description": "The very essence of earth.",
+        "category": "Essence",
+        "basePrice": 15
+      }
+    ],
+    "crafting_station": "None",
+    "result_item": {
+      "id": "item_078",
+      "name": "Poisoncloud Arrowhead",
+      "description": "An arrowhead that creates a poison cloud.",
+      "category": "Arrowhead",
+      "basePrice": 18
+    }
   }
 ]
-

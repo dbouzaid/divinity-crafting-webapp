@@ -4,6 +4,7 @@ import { Item } from "@/app/types/Item";
 import { Recipe } from "@/app/types/Recipe";
 import Link from "next/link";
 import Image from "next/image";
+import Thumbnail from "@/app/components/Thumbnail";
 
 type ItemPageProps = {
   params: {
@@ -63,12 +64,14 @@ export default async function ItemPage({ params }: ItemPageProps) {
 
   function generateItemCards(recipes: Recipe[], title: string){
     return (
-        <>
+        <div className="border dark:border-gray-700 dark:bg-gray-800 bg-slate-400 border-slate-500 p-4 mb-4">
             <h2 className="text-2xl font-semibold mb-4 mt-8">{title}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {recipes.map((recipe) => {
             return <RecipeCard key={recipe.recipe_id} recipe={recipe}/>;
             })}
-        </>
+            </div>
+        </div>
     )
 }
 
@@ -76,7 +79,7 @@ export default async function ItemPage({ params }: ItemPageProps) {
   return (
     <main className="container mx-auto px-4 py-8">
       <div className="mb-4">
-        <Link href="/items" className="text-slate-800 hover:underline">
+        <Link href="/items" className="text-slate-800 dark:text-slate-100 hover:underline">
           &larr; Back to Items
         </Link>
       </div>
@@ -85,14 +88,7 @@ export default async function ItemPage({ params }: ItemPageProps) {
               <h1 className="text-4xl font-bold mb-2">{item.name}</h1>
               <p className="text-lg font-semibold text-slate-800 dark:text-gray-400 mb-4">Category: {item.category}</p>
           </div>
-          <Image
-                      src={`/items/${item.id}.webp`}
-                      alt={item.name}
-                      width={75}
-                      height={75}
-                      unoptimized
-                      className="h-full bg-gray-700 text-white"
-                    />
+          <Thumbnail id={item.id} name={item.name} width={100} height={100}/>
       </div>
       <div className="border dark:border-gray-700 dark:bg-gray-800 bg-slate-400 border-slate-500 p-4 mb-4">
         <p className="mb-4">{item.description}</p>
