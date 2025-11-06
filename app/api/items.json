@@ -23,10 +23,10 @@
   },
   {
     "id": "item_003",
-    "name": "Fly Agaric Mushroom",
-    "description": "Just a friendly little poisonous toadstool, minding its own business.",
+    "name": "Guepinia Mushroom",
+    "description": "A fleshy, bright orange mushroom.",
     "category": "Herb",
-    "basePrice": 20
+    "basePrice": 1
   },
   {
     "id": "item_031",
@@ -196,7 +196,274 @@
     "id": "item_023",
     "name": "Tooth",
     "description": "A sharp tooth, pulled from... something.",
-    "category": "Storage",
+    "category": "Material",
     "basePrice": 2
+  },
+  {
+    "id": "item_041",
+    "name": "Yarrow Flower",
+    "description": "A flower with healing properties. Used for Healing Elixirs.",
+    "category": "Herb",
+    "basePrice": 5
+  },
+  {
+    "id": "item_042",
+    "name": "Whisperwood",
+    "description": "A pale, magical herb. Used for Magic Armour Potions.",
+    "category": "Herb",
+    "basePrice": 5
+  },
+  {
+    "id": "item_043",
+    "name": "Amadouvier",
+    "description": "A tough, woody mushroom. Used for Physical Armour Potions.",
+    "category": "Herb",
+    "basePrice": 5
+  },
+  {
+    "id": "item_044",
+    "name": "Bluegill Mushroom",
+    "description": "A mushroom with a vibrant blue cap. Used for Water Resistance Potions.",
+    "category": "Herb",
+    "basePrice": 4
+  },
+  {
+    "id": "item_045",
+    "name": "Earth Tongue Mushroom",
+    "description": "A dark, strange-looking mushroom. Used for Earth Resistance Potions.",
+    "category": "Herb",
+    "basePrice": 4
+  },
+  {
+    "id": "item_046",
+    "name": "Jellyroom",
+    "description": "A gelatinous, wobbly mushroom. Used for Air Resistance Potions.",
+    "category": "Herb",
+    "basePrice": 4
+  },
+  {
+    "id": "item_047",
+    "name": "Trumpet of Death",
+    "description": "A grim-looking mushroom. Used for Minor Resist All Potions.",
+    "category": "Herb",
+    "basePrice": 6
+  },
+  {
+    "id": "item_048",
+    "name": "Fly Agaric Mushroom",
+    "description": "A classic red-and-white toadstool. Used for Poison Potions.",
+    "category": "Herb",
+    "basePrice": 1
+  },
+  {
+    "id": "item_049",
+    "name": "Amethyst Deceiver",
+    "description": "A purple mushroom. Used for Strength Potions.",
+    "category": "Herb",
+    "basePrice": 8
+  },
+  {
+    "id": "item_050",
+    "name": "Boletus",
+    "description": "A hefty mushroom. Used for Finesse Potions.",
+    "category": "Herb",
+    "basePrice": 8
+  },
+  {
+    "id": "item_051",
+    "name": "Puffball",
+    "description": "A round, white mushroom. Used for Wits Potions.",
+    "category": "Herb",
+    "basePrice": 8
+  },
+  {
+    "id": "item_052",
+    "name": "Air Essence",
+    "description": "The very essence of air.",
+    "category": "Essence",
+    "basePrice": 15
+  },
+  {
+    "id": "item_053",
+    "name": "Water Essence",
+    "description": "The very essence of water.",
+    "category": "Essence",
+    "basePrice": 15
+  },
+  {
+    "id": "item_054",
+    "name": "Earth Essence",
+    "description": "The very essence of earth.",
+    "category": "Essence",
+    "basePrice": 15
+  },
+  {
+    "id": "item_055",
+    "name": "Life Essence",
+    "description": "The very essence of life.",
+    "category": "Essence",
+    "basePrice": 15
+  },
+  {
+    "id": "item_056",
+    "name": "Pixie Dust",
+    "description": "Glimmering, magical dust.",
+    "category": "Material",
+    "basePrice": 10
+  },
+  {
+    "id": "item_057",
+    "name": "Bonedust",
+    "description": "Finely ground bone.",
+    "category": "Material",
+    "basePrice": 2
+  },
+  {
+    "id": "item_058",
+    "name": "Stardust Herb",
+    "description": "An herb that glitters with faint light.",
+    "category": "Herb",
+    "basePrice": 5
+  },
+  {
+    "id": "item_059",
+    "name": "Tormented Soul",
+    "description": "A spirit captured in physical form.",
+    "category": "Material",
+    "basePrice": 20
+  },
+  {
+    "id": "item_060",
+    "name": "Empty Perfume Bottle",
+    "description": "An ornate, empty bottle.",
+    "category": "Container",
+    "basePrice": 2
+  },
+  {
+    "id": "item_061",
+    "name": "Honey",
+    "description": "A jar of sweet, sticky honey.",
+    "category": "Food",
+    "basePrice": 3
+  },
+  {
+    "id": "item_062",
+    "name": "Feather",
+    "description": "A light, downy feather.",
+    "category": "Material",
+    "basePrice": 1
+  },
+  {
+    "id": "item_063",
+    "name": "Healing Elixir",
+    "description": "Heals Vitality and removes some negative statuses.",
+    "category": "Potion",
+    "basePrice": 20,
+    "consumeEffect": "Heals 30% Vitality, Cures Poisoned"
+  },
+  {
+    "id": "item_064",
+    "name": "Small Magic Armour Potion",
+    "description": "Restores a small amount of Magic Armour.",
+    "category": "Potion",
+    "basePrice": 15
+  },
+  {
+    "id": "item_065",
+    "name": "Small Physical Armour Potion",
+    "description": "Restores a small amount of Physical Armour.",
+    "category": "Potion",
+    "basePrice": 15
+  },
+  {
+    "id": "item_066",
+    "name": "Small Water Resistance Potion",
+    "description": "Grants 15% Water Resistance.",
+    "category": "Potion",
+    "basePrice": 12
+  },
+  {
+    "id": "item_067",
+    "name": "Small Earth Resistance Potion",
+    "description": "Grants 15% Earth Resistance.",
+    "category": "Potion",
+    "basePrice": 12
+  },
+  {
+    "id": "item_068",
+    "name": "Small Air Resistance Potion",
+    "description": "Grants 15% Air Resistance.",
+    "category": "Potion",
+    "basePrice": 12
+  },
+  {
+    "id": "item_069",
+    "name": "Small Resist All Potion",
+    "description": "Grants 10% to all resistances.",
+    "category": "Potion",
+    "basePrice": 25
+  },
+  {
+    "id": "item_070",
+    "name": "Small Strength Potion",
+    "description": "Grants +1 Strength.",
+    "category": "Potion",
+    "basePrice": 20
+  },
+  {
+    "id": "item_071",
+    "name": "Small Finesse Potion",
+    "description": "Grants +1 Finesse.",
+    "category": "Potion",
+    "basePrice": 20
+  },
+  {
+    "id": "item_072",
+    "name": "Small Wits Potion",
+    "description": "Grants +1 Wits.",
+    "category": "Potion",
+    "basePrice": 20
+  },
+  {
+    "id": "item_073",
+    "name": "Terror Grenade",
+    "description": "Inflicts Terrified status.",
+    "category": "Grenade",
+    "basePrice": 30
+  },
+  {
+    "id": "item_074",
+    "name": "Love Grenade",
+    "description": "Inflicts Charmed status.",
+    "category": "Grenade",
+    "basePrice": 15
+  },
+  {
+    "id": "item_075",
+    "name": "Charming Arrowhead",
+    "description": "An arrowhead that can charm its target.",
+    "category": "Arrowhead",
+    "basePrice": 6
+  },
+  {
+    "id": "item_076",
+    "name": "Shocking Arrowhead",
+    "description": "An arrowhead that delivers a shock.",
+    "category": "Arrowhead",
+    "basePrice": 18
+  },
+  {
+    "id": "item_077",
+    "name": "Freezing Arrowhead",
+    "description": "An arrowhead that can freeze its target.",
+    "category": "Arrowhead",
+    "basePrice": 18
+  },
+  {
+    "id": "item_078",
+    "name": "Poisoncloud Arrowhead",
+    "description": "An arrowhead that creates a poison cloud.",
+    "category": "Arrowhead",
+    "basePrice": 18
   }
 ]
